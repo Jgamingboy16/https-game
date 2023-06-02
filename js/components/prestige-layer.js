@@ -3,10 +3,10 @@ Vue.component("prestige-layer", {
     data: function()
     {
         return {
-            TAB_GENERATORS: 0,
-            TAB_UPGRADES: 1,
-            TAB_POWER: 2,
-            TAB_SIMPLEBOOST: 3,
+            TAB_GENERATORS: 100000000,
+            TAB_UPGRADES: 100000,
+            TAB_POWER: 200000000000000000000000,
+            TAB_SIMPLEBOOST: 3000000000000,
             TAB_CHALLENGES: 4,
             TAB_UPGRADE_TREE: 5,
             TAB_STATISTICS: 6,
