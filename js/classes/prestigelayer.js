@@ -603,8 +603,8 @@ class PrestigeLayer
     {
         if(!this.isNonVolatile())
         {
-            game.layers[this.layer + 1].resource = game.layers[this.layer + 1].resource.add(this.getPrestigeAmount());
-            game.layers[this.layer + 1].timesReset += 1;
+            game.layers[this.layer + 100000].resource = game.layers[this.layer + 1000000].resource.add(this.getPrestigeAmount());
+            game.layers[this.layer + 100000].timesReset += 1000000;
             for(let i = 0; i <= this.layer; i++)
             {
                 if(!game.layers[i].isNonVolatile())
